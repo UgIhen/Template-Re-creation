@@ -1,0 +1,577 @@
+body
+{
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-display: swap;
+    background-color: rgb(42, 54, 59);
+    color: rgb(133, 145, 150);
+}
+.sec1 
+{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    /* transition: 3s ease; */
+}
+.header1 
+{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    /* background-color: chocolate; */
+}
+.h1left
+{
+    width: 50%;
+    height: inherit;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.h1left > a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    /* background-color: black; */
+    width: 51%;
+    font-size: 130%; 
+    font-weight: 400;
+}
+nav 
+{  
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.navright 
+{
+    width: 57%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.navright > a:hover 
+{
+    color: rgba(255, 255, 255, 0.884);
+    font-weight: normal;
+    transition: 0.3s ease-in-out;
+}
+.navright > .active:hover
+{
+    color: rgb(255, 255, 255);
+}
+.righttext
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.502);
+}
+.active
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.creativeparent
+{
+    width: 100%;
+    height: 45vh;
+    /* background-color: darkslategray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.creativeparent > h1, .cp3 > h1
+{
+    color: white;
+    font-size: 250%;
+    font-weight: normal;
+    /* background-color: brown; */
+    margin: 0%;
+    line-height: 1.1;
+}
+.creativeparent > h3, .cp3 > h3
+{
+    height: 20vh;
+    font-size: 125%;
+    font-weight: normal;
+    line-height: 1.7; 
+    text-align: center;
+    margin: 1% 0 0 0;
+    /* background-color: aquamarine;  */
+}
+.dffbutton 
+{
+    width: 16%;
+    background-color: rgb(207, 68, 68);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    font-size: 87%;
+    align-items: center;
+    border-radius: 5px;
+    border: 0.5px solid rgb(207, 68, 68);
+    font-weight: bolder;
+    letter-spacing: 0.12em;
+}
+.dffbutton > a, .downloadbutton > a
+{
+    /* background-color: green; */
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.dffbutton:hover
+{
+    background-color: rgb(179, 47, 48);
+    transition: ease;
+    width: 16%;
+    height: 8vh;
+    text-align: center;
+    border: 0.5px solid rgb(179, 47, 48);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+.sec2 
+{
+    background-color: rgba(37, 48, 53, 0.719);
+    width: 100%;
+    height: 95vh;
+    display: flex;
+}
+.sec2grid 
+{
+    width: 100%;
+    height: 70vh;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+.gridparent
+{
+    width: 70%;
+    height: 65vh;
+    display: flex;
+    margin-top: 7% !important;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+.gridparent2
+{
+    display: flex;
+    width: 70%;
+    height: 60vh;
+    margin-top: -15% !important;
+    margin: 0 auto;
+}
+.grid 
+{
+    width: 40%;
+    margin-right: 2%;
+    text-align: left;
+    display: flex;
+    /* background-color: blue; */
+    height: 30vh;
+}
+.grid > i
+{
+    width: 100%;
+    height: 10vh;
+}
+ion-icon, .icon > i
+{
+    font-size: 70px;
+    margin-right: -20%;
+    margin-left: -20%;
+    color: rgb(207, 68, 68);
+}
+.txt > p
+{
+    line-height: 1.5;
+    font-size: 100%;
+}
+.txt > h2
+{
+    color: white;
+    font-weight: normal;
+    font-size: 110%;
+}
+
+
+
+
+.sec3
+{
+    width: 100%;
+    height: 140vh;
+    background-color: rgb(42, 54, 59);
+    display: flex;
+    align-items: center;
+    /* margin: 0%; */
+}
+.firstslide 
+{
+    width: 100%;
+    height: 120vh;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 0 0 0;
+    /* background-color: aliceblue; */
+}
+.left1x 
+{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    height: 115vh;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: goldenrod; */
+}
+.title
+{
+    width: 76%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: top;
+}
+.title > h1
+{
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+    font-weight: normal;
+    line-height: 1.5;
+    /* background-color: brown; */
+    width: 100%;
+    align-self: flex-end;
+    margin: 0 0 1% 0;
+    height: 17vh;
+}
+.title > h3 
+{
+    font-size: 118%;
+    font-weight: normal;
+    line-height: 1.7; 
+    text-align: left;
+    /* background-color: aquamarine; */
+    margin: 0.5%;
+}
+.buttons1 
+{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    align-items: center;
+    margin: 0%;
+    height: 20vh;
+}
+.downloadbutton 
+{
+    width: 53%;
+    background-color: rgb(207, 68, 68);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 0.5px solid rgb(207, 68, 68);
+    font-size: 90%;
+    font-weight: bolder;
+    letter-spacing: 0.12em;
+}
+.downloadbutton:hover
+{
+    background-color: rgb(179, 47, 48);
+    width: 53%;
+    height: 8vh;
+    text-align: center;
+    border: 0.5px solid rgb(179, 47, 48);
+    transition: 0.3s ease-in-out;
+}
+/* .downloadbutton > a on line 127  */
+.buttext2 
+{
+    width: 44%;
+    /* background-color: white; */
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ull
+{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 0.3px solid rgba(255,255,255,.2);
+    font-size: 90%;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+}
+
+.buttext2 > a
+{
+    /* background-color: green; */
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.buttext2:hover
+{
+    background-color: white;
+    color: black !important;
+    transition: 0.3s ease-in-out;
+}
+.buttext2 > a:hover
+{
+    background-color: white;
+    color: black !important;
+    transition: 0.3s ease-in-out;
+}
+
+
+.right1x 
+{
+    height: 105vh;
+    width: 49%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: left;
+}
+img 
+{
+    width: 74%;
+    height: 100vh;
+}
+.sec3b
+{
+    width: 100%;
+    height: 150vh;
+    background-color: rgba(37, 48, 53, 34);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 0%;
+}
+.left1y 
+{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: goldenrod; */
+}
+.right1y 
+{
+    height: 120vh;
+    width: 49%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+
+
+
+.sec4
+{
+    width: 100%;
+    height: 140vh; 
+    /* background-color: rgb(42, 54, 59); */
+    /* or transparent.  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bgimage
+{
+    width: 100%; 
+    height: 75vh; 
+    background-image: url('../img/BG\ 3rd\ Slide.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4text
+{
+    width: 100%;
+    height: 40vh;
+    /* background-color: green; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec4text > h1
+{
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+    font-weight: normal;
+    line-height: 1.5;
+    /* background-color: brown; */
+    width: 100%;
+    align-self: flex-end;
+    margin: 0 0 1% 0;
+    height: 17vh;
+}
+.buttons2 
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+
+
+.sec4desc
+{
+    width: 81%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    /* background-color: red; */
+}
+.description 
+{
+    width: 20%; 
+    height: 40vh;
+    /* background-color: aqua; */
+}
+.description > h2
+{
+    color: rgb(255, 255, 255);
+    margin: 1%;
+    font-size: 125%;
+    font-weight: normal;
+    margin: 0%;
+}
+.description  > h3 
+{
+    font-size: 115%;
+    font-weight: normal;
+    line-height: 1.7; 
+    text-align: left;
+    /* background-color: green; */
+}
+
+
+
+
+.footer
+{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(31, 39, 43, 0.719);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftfooter 
+{
+    width: 46%;
+    height: 18vh;
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
+}
+.leftfooter > h5, .heart > h5 
+{
+    margin: 0%;
+    font-weight: normal;
+    font-size: 100%;
+}
+.heart
+{
+    display: flex;
+    /* background-color: greenyellow; */
+    width: 100%;
+    height: 5vh;
+    /* margin: 0%; */
+    align-items: center;
+}
+/* .heart > h5 on line 555 */
+.heart > a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.302); 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* background-color: violet; */
+    font-size: 100%;
+    font-weight: normal;
+}
+.heart > a:hover, .rightfooter > a:hover
+{
+    color: rgb(207, 68, 68);
+    font-weight: normal;
+    transition: 0.5s ease;
+}
+.heart > h5 
+{
+    text-align: start;
+    font-weight: normal;
+    font-size: 100%;
+}
+.rightfooter 
+{
+    width: 16%;
+    height: 20vh;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: right;
+}
+.twitter, .facebook, .instagram 
+{
+    width: 25%; 
+    height: 8.3vh;
+    background-color: rgb(42, 54, 59);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightfooter > a
+{
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    font-size: 170%;
+}
